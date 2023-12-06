@@ -166,18 +166,26 @@ fieldset legend {
     display: none;
 }
 
-fieldset button{
+fieldset a{
     width: 15.1rem;
     padding: 1.6rem;
     color: #fff;
     border-radius: 1.6rem;
     border: 0;
-    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);   
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);  
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.4rem; 
     cursor: pointer; 
+    transition: all .3s;
+    text-decoration: none;
 }
 
-fieldset button:hover{
-    background: #35329b;
+/*background: linear-gradiante interferindo com o hover no background ai fica so piscando*/
+fieldset a:hover{
+    /* background: #35329b; */
+    filter: brightness(1.4);
 }
 
 footer p{
